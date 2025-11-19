@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/stylereserva.css">
+    <link rel="icon" type="image/png" href="imagens/logo-partiu-trip-grande-removebg-preview.png">
+    <title>Reserva • Partiu Trip</title>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="logo-area">
+            <img id="logotipo" src="imagens/logo-partiu-trip-grande-removebg-preview.png" alt="logo Partiu Trip">
+            <h1 class="titulo-site">Partiu Trip 🌎</h1>
+        </div>
+
+        <nav>
+            <ul class="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="viagens.html">Viagens</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Conteúdo Principal -->
+    <main>
+        <section class="reserva-container">
+            <h2 class="titulo-reserva">Confirme sua Reserva ✈️</h2>
+            <p class="texto-reserva">Insira os detalhes da sua viagem e finalize o pagamento. Tudo fictício para simulação!</p>
+
+            <!-- Detalhes da Viagem (Genéricos - Usuário Insere) -->
+            <div class="detalhes-viagem">
+                <!-- Substituído por um banner profissional -->
+                <div class="banner-viagem">
+                    <h4>Explore o Mundo com Partiu Trip</h4>
+                    <p>Viagens inesquecíveis aguardam por você!</p>
+                </div>
+                <div class="info-viagem">
+                    <h3>Destino Selecionado</h3>
+                    <p><strong>Preço:</strong> Insira o preço (ex.: R$ 8.500)</p>
+                    <p><strong>Horário:</strong> Insira o horário (ex.: Voo de São Paulo às 22:00)</p>
+                    <p>Esta viagem inclui voo ida e volta, hospedagem básica e traslados. Prepare-se para a aventura!</p>
+                </div>
+            </div>
+
+            <!-- Formulário de Pagamento (Visual, sem Processamento) -->
+            <form class="form-pagamento">
+                <h3>Dados de Pagamento 💳</h3>
+                <label for="nome-cartao">Nome no Cartão</label>
+                <input type="text" id="nome-cartao" placeholder="Ex:João Gabriel">
+
+                <label for="numero-cartao">Número do Cartão</label>
+                <input type="text" id="numero-cartao" placeholder="1234 5678 9012 3456">
+
+                <div class="linha-pagamento">
+                    <div>
+                        <label for="validade">Validade (MM/AA)</label>
+                        <input type="text" id="validade" placeholder="12/25">
+                    </div>
+                </div>
+
+                <label for="cvv">CVV</label>
+                <input type="text" id="cvv" placeholder="123">
+
+                <!-- Botão leva a uma página de sucesso fictícia -->
+                <a href="sucesso.html" class="btn-confirmar-link">
+                    <button type="button" class="btn-confirmar">Confirmar Pagamento 🚀</button>
+                </a>
+            </form>
+        </section>
+    </main>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2025 PartiuTrip. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+
+</html>
